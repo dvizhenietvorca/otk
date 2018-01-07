@@ -1,0 +1,8 @@
+*.phtml
+*.php
+*.html
+*.htm
+
+services/
+
+static/

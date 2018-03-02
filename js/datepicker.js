@@ -52,7 +52,7 @@ function loadData(month, year) {
 
 $(document).ready(function () {
 
-    setInterval("daymess()", 23);
+    //setInterval("daymess()", 23);
 
     /*setInterval("daymess(1)", 23);
     setInterval("daymess(2)", 23);

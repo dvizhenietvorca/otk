@@ -210,7 +210,7 @@ $(document).ready(function () {
 
                         // мигание дат Посыла
                         if (date.getTime() >= 1485896400000 && date.getDay() == 3 /*date.getDate() == 4 || date.getDate() == 17 || date.getDate() == 26 || date.getDate() == 30 ||*/) {
-                            styleday.classes = date >= curDay ? styleday.classes + ' daymsgblink d' + counter : styleday.classes + ' daymsg';
+                            styleday.classes = date >= curDay ? styleday.classes + ' d' + counter : styleday.classes + ' daymsg'; // daymsgblink
                             styleday.tooltip = date.getDate() + ' ' + monthName[date.getMonth()] + ' – КОЛЛЕКТИВНЫЙ ПОСЫЛ \nНА ЛЮБОВЬ И ДУХОВНОЕ ЕДИНЕНИЕ';
                             if (date >= curDay) {
                                 counter++;
